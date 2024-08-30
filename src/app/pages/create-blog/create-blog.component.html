@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="content-wrapper">
+        <mat-form-field style="margin-top: 10px; display: flex;">
+            <mat-label >Username</mat-label>
+            <input [(ngModel)]="username" matInput />
+          </mat-form-field>
+
+          <mat-form-field style="margin-top: 10px; display: flex;">
+            <mat-label >Title</mat-label>
+            <input [(ngModel)]="title" matInput />
+          </mat-form-field>
+
+          <angular-editor [(ngModel)]="content" [config]="editorConfig"></angular-editor>
+          <button (click)="post()" mat-raised-button color="primary" style="margin-top: 20px;">Post Blog</button>
+    </div>
+</div>

@@ -21,14 +21,21 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@kolkov/angular-editor/assets/",
+                "output": "./assets/fonts/"
+              },     
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
           },
+          
           "configurations": {
             "production": {
               "budgets": [
@@ -37,6 +44,7 @@
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
+                
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
@@ -87,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []

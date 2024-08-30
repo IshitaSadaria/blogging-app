@@ -1,0 +1,17 @@
+
+<div class="container">
+    <mat-card class="card" >
+        <mat-card-title class="title" >{{blogService.blogsData[blogIndex].title}}</mat-card-title>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{blogService.blogsData[blogIndex].author}}</mat-card-title>
+          <mat-card-subtitle>Author</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content [innerHTML]="blogService.blogsData[blogIndex].content">          
+        </mat-card-content>
+        <mat-card-actions style="margin-bottom: 6px; margin-top: 15px;" >
+          <button mat-raised-button color="primary" style="margin-left: 8px;">LIKE</button>
+          <button mat-raised-button color="accent" style="margin-left: 15px;">SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+</div>

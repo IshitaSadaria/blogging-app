@@ -1,0 +1,32 @@
+{
+  "blogs": [
+    {
+      "author": "Ishita",
+      "title": "Blog 1",
+      "content": "Hello World",
+      "comments": [],
+      "id": 1
+    },
+    {
+      "author": "Apple",
+      "title": "Blog 2",
+      "content": "jhbvkfn,cs jknoidckd,lcmsklcmocm nc slinmopk jnkalsss",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "Ms Ishita",
+      "title": "Blog 3",
+      "content": "<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tempus aliquet. Pellentesque finibus, est et iaculis suscipit, dolor nulla commodo dui, nec ultricies arcu nisl tristique eros. Morbi eros est, pulvinar eget ornare ac, ultrices eget risus. Ut lobortis pellentesque pretium. Praesent sollicitudin vestibulum iaculis. Mauris a finibus orci. Quisque ipsum nunc, efficitur sit amet blandit ut, aliquam quis dui. Phasellus interdum leo eu ipsum malesuada, et interdum diam egestas. Maecenas pretium fermentum tortor ac tincidunt. Curabitur consectetur dolor libero, at aliquam est ornare eleifend. Aliquam at finibus dolor.</span>",
+      "comments": [],
+      "id": 3
+    },
+    {
+      "author": "Ami Patel",
+      "title": "What is AI ?",
+      "content": "<p>Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze.&#160;</p><p>AI is a broad field that encompasses many different disciplines, including computer science, data analytics and statistics, hardware and software engineering, linguistics, neuroscience, and even philosophy and psychology.&#160;</p><p>On an operational level for business use, AI is a set of technologies that are based primarily on machine learning and deep learning, used for data analytics, predictions and forecasting, object categorization, natural language processing, recommendations, intelligent data retrieval, and more.</p>",
+      "comments": [],
+      "id": 4
+    }
+  ]
+}

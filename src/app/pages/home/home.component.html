@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="content-wrapper">
+        <button routerLink="/create" mat-raised-button color="primary" style="margin-left: 200px;">Create Blog</button>
+        
+        <mat-card [routerLink]="'/view/'+i" class="card" *ngFor="let blog of blogService.blogsData; let i=index">
+            <mat-card-header>
+              <mat-card-title>{{blog.title}}</mat-card-title>
+              <mat-card-subtitle>Written by {{blog.author}}</mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+
+       
+    </div>
+</div>
